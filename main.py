@@ -59,13 +59,13 @@ def change_action(action_var,frame,new_value):
  
 animation_database = {}
  
-animation_database['run'] = load_animation('tests/anims/run',[7,7])
-animation_database['idle'] = load_animation('tests/anims/idle',[7,7,40])
+animation_database['run'] = load_animation('anims/run',[7,7])
+animation_database['idle'] = load_animation('anims/idle',[7,7,40])
  
-game_map = load_map('tests/map')
+game_map = load_map('map')
  
-grass_img = pg.image.load('tests/imgs/grass.png')
-dirt_img = pg.image.load('tests/imgs/dirt.png')
+grass_img = pg.image.load('imgs/grass.png')
+dirt_img = pg.image.load('imgs/dirt.png')
  
 player_action = 'idle'
 player_frame = 0
